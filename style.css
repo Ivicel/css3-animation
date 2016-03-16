@@ -183,8 +183,9 @@ input[name="nav"]:not(:checked):hover + a {
     color: #E63D78;
     text-shadow: 1px 1px 1px #BB3564;
     line-height: 1.5em;
-    -webkit-transform: translateY(5px);
-    transform: translateY(5px);
+    /*-webkit-transform: translateY(5px);*/
+    transform: translateY(0px);
+    opacity: 0.5;
 }
 
 .container p {
@@ -195,8 +196,9 @@ input[name="nav"]:not(:checked):hover + a {
     width: 80%;
     margin: 37px auto;
     padding: 0 10px;
-    -webkit-transform: translateY(-5px);
-    transform: translateY(-5px);
+    /*-webkit-transform: translateY(-5px);*/
+    transform: translateY(0px);
+    opacity: 0.5;
 }
 
 .wrapper {
@@ -255,7 +257,7 @@ input[name="nav"]:not(:checked):hover + a {
     }
     to {
         -webkit-transform: translateY(5px);
-        transform: translateY(5px);
+        transform: translateY(10px);
         opacity: 1;
     }
 }
@@ -268,7 +270,7 @@ input[name="nav"]:not(:checked):hover + a {
     }
     to {
         -webkit-transform: translateY(5px);
-        transform: translateY(5px);
+        transform: translateY(10px);
         opacity: 1;
     }
 }
